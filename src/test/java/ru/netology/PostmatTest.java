@@ -20,7 +20,7 @@ public class PostmatTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("10.06.1991"))
+                .body("data", equalTo("some data"))
         ;
     }
 }
